@@ -1,0 +1,18 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4164
+
+A dark colourscheme for Vim that combines the:
+-   Colour palette from Tomorrow-Night: https://github.com/chriskempson/vim-tomorrow-theme
+-   Syntax group highlighting scheme from jellybeans: https://github.com/nanotech/jellybeans.vim
+-   Vim code from solarized: https://github.com/altercation/vim-colors-solarized
+
+Screenshots available from:
+-   https://github.com/w0ng/vim-hybrid
+
+Recommended For terminal users: 
+1.  Add these colours to ~/.Xresources: 
+    - https://gist.github.com/3278077
+2.  Use Xresources colours by setting in ~/.vimrc:
+        let g:hybrid_use_Xresources = 1
+        colorscheme hybrid
+
+
